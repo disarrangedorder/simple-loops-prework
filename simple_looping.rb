@@ -15,7 +15,7 @@ def loop_iterator(number_of_times)
       counter +=1
       puts phrase
   #loop_iterator (0) how do we account for 0
-      if number_of_times <= counter
+      if number_of_times == counter
        break
       end
    end
